@@ -39,7 +39,7 @@ for (const btn of btnCall) {
             callHis.appendChild(div);
         }
         else {
-            alert('❌ Not Enough coin found')
+            alert('❌ Not Enough coin, Needed Minimum 20 Coins')
         }
 
     })
