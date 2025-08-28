@@ -13,8 +13,35 @@ Answer:
     
 2) How do you create and insert a new element into the DOM?
 
-Answer: let newDiv = document.createElement("div");
+Answer: 
+    Create element:(div)
+        let newDiv = document.createElement("div");
+
+    Insert a new element into body:
+        document.body.appendChild(newDiv);
+it is added to the last chaild
 
 3) What is Event Bubbling and how does it work?
+Answer: Event Bubbling is a concept in the Document Object Model. It happens when an element receives an event, and that event bubbles up.
+Works:Suppose you click a button inside a div which is inside the body.
+The event first triggers on the button.
+Then it moves up to the div, then to the body, then document, and finally window
+
 4) What is Event Delegation in JavaScript? Why is it useful?
+Answer:Event Delegation is a technique where you attach a single event listener to a parent element to manage events on its child elements, using event bubbling.
+Useful:
+Efficiency (Better Performance)
+Dynamic Elements
+Cleaner Code
 5) What is the difference between preventDefault() and stopPropagation() methods?
+What it does:
+Stops the default browser action from happening.
+
+Does NOT stop the event from bubbling up.
+
+event.stopPropagation()
+
+What it does:
+Stops the event from bubbling (or capturing) to parent elements.
+
+Does NOT stop the default browser action.
