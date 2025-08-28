@@ -1,11 +1,10 @@
 1) What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
 Answer:
-    getElementById:
+getElementById:
     i) Finds one element with the given id.
     ii) Return type a single element object.
-    
-    getElementsByClassName:
+getElementsByClassName:
     i)Finds all elements that have the given class.
     ii)Return type HTMLCollection
     
