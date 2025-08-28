@@ -41,8 +41,8 @@ iii) Cleaner Code
 Answer:
 Event preventDefault():
 Stops the default browser action from happening.
-Does NOT stop the event from bubbling up.
+Does not stop the event from bubbling up.
 
 Event stopPropagation():
 Stops the event from bubblingto parent elements.
-Does NOT stop the default browser action.
+Does not stop the default browser action.
